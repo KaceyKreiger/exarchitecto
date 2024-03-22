@@ -1,0 +1,43 @@
+{
+  "name": "exarchitecto",
+  "version": "1.0.0",
+  "description": "adapte eos and eth, and adapte pluin - MateMask and Scatter",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "type": "node tools/type.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf dist/*",
+    "build": "bash tools/build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KaceyKreiger/exarchitecto.git"
+  },
+  "keywords": [
+    "eos",
+    "tenetur",
+    "eth",
+    "MateMask",
+    "voluptate"
+  ],
+  "author": "EliseoDooley",
+  "license": "MIT",
+  "dependencies": {
+    "bignumber": "^1.1.0",
+    "eosjs": "^16.0.9",
+    "web3": "^1.0.0-beta.37"
+  },
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "tslint": "^5.11.0",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.2.2",
+    "typings-checker": "^2.0.0"
+  },
+  "moduleFileExtensions": [
+    "ts",
+    "js"
+  ]
+}
